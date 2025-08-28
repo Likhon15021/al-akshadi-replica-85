@@ -107,13 +107,13 @@ export default {
 				}
 			},
 			fontFamily: {
-				sans: ['Inter', 'system-ui', 'sans-serif'],
+				sans: ['Raleway', 'system-ui', 'sans-serif'],
 				serif: ['Playfair Display', 'Georgia', 'serif'],
 				mono: ['JetBrains Mono', 'monospace'],
-				'outfit': ['Outfit', 'system-ui', 'sans-serif'],
+				'raleway': ['Raleway', 'system-ui', 'sans-serif'],
 				'inter': ['Inter', 'system-ui', 'sans-serif'],
-				'poppins': ['Poppins', 'system-ui', 'sans-serif'],
-				'manrope': ['Manrope', 'system-ui', 'sans-serif']
+				'manrope': ['Manrope', 'system-ui', 'sans-serif'],
+				'helvetica': ['Helvetica Neue', 'Helvetica', 'Arial', 'sans-serif']
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
