@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
-import FastHeroSlider from '@/components/FastHeroSlider';
+import PremiumRealEstateHero from '@/components/PremiumRealEstateHero';
+import FloatingWhatsAppButton from '@/components/FloatingWhatsAppButton';
 import StatCard from '@/components/StatCard';
 import ProjectFilter from '@/components/ProjectFilter';
 import TestimonialCarousel from '@/components/TestimonialCarousel';
@@ -88,8 +89,11 @@ const Index = () => {
 
   return (
     <main>
-      {/* Fast Hero Slider */}
-      <FastHeroSlider />
+      {/* Premium Real Estate Hero */}
+      <PremiumRealEstateHero />
+      
+      {/* Floating WhatsApp Button */}
+      <FloatingWhatsAppButton />
 
       {/* Premium Statistics Section */}
       <section className="py-24 bg-gradient-to-r from-muted/20 via-primary/5 to-tertiary/10 relative overflow-hidden">
