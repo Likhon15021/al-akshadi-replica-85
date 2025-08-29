@@ -33,15 +33,6 @@ const slides: SlideData[] = [
     image: "https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?w=1920&h=1080&fit=crop&crop=center",
     cta1: "Explore Projects",
     cta2: "Get in Touch"
-  },
-  {
-    id: 3,
-    title: "SUSTAINABLE PREMIUM QUALITY",
-    subtitle: "Excellence in Every Detail",
-    description: "Environmentally conscious building practices using premium materials for luxurious green development that creates lasting value and timeless beauty",
-    image: "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?w=1920&h=1080&fit=crop&crop=center",
-    cta1: "Explore Projects", 
-    cta2: "Get in Touch"
   }
 ];
 

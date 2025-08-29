@@ -1,9 +1,10 @@
-import ModernHeroSlider from '@/components/ModernHeroSlider';
+import FullscreenCardSlider from '@/components/FullscreenCardSlider';
+import AboutUsSection from '@/components/AboutUsSection';
 import FloatingWhatsAppButton from '@/components/FloatingWhatsAppButton';
-import AnimatedStatsSection from '@/components/AnimatedStatsSection';
-import ModernProjectsSection from '@/components/ModernProjectsSection';
-import EnhancedWhyChooseSection from '@/components/EnhancedWhyChooseSection';
+import AnimatedProjectsSlider from '@/components/AnimatedProjectsSlider';
+import ExplorerSection from '@/components/ExplorerSection';
 import TestimonialCarousel from '@/components/TestimonialCarousel';
+import PartnersSection from '@/components/PartnersSection';
 
 const Index = () => {
   const ongoingProjects = [
@@ -42,6 +43,12 @@ const Index = () => {
       location: "Seroil, Boalia, Rajshahi",
       image: "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=400&h=300&fit=crop",
       slug: "ali-palace"
+    },
+    {
+      title: "SUMS Heights",
+      location: "Shaheb Bazar, Rajshahi",
+      image: "https://images.unsplash.com/photo-1541888946425-d81bb19240f5?w=400&h=300&fit=crop",
+      slug: "sums-heights"
     }
   ];
 
@@ -83,27 +90,30 @@ const Index = () => {
 
   return (
     <main>
-      {/* Modern Hero Slider with Parallax */}
-      <ModernHeroSlider />
+      {/* Fullscreen Card Hero Slider */}
+      <FullscreenCardSlider />
+      
+      {/* About Us Section */}
+      <AboutUsSection />
       
       {/* Floating WhatsApp Button */}
       <FloatingWhatsAppButton />
 
-      {/* Animated Statistics Section */}
-      <AnimatedStatsSection />
-
-      {/* Modern Projects Section */}
-      <ModernProjectsSection 
+      {/* Animated Projects Slider */}
+      <AnimatedProjectsSlider 
         ongoingProjects={ongoingProjects}
         completedProjects={completedProjects}
         upcomingProjects={upcomingProjects}
       />
 
-      {/* Enhanced Why Choose SUMS */}
-      <EnhancedWhyChooseSection />
+      {/* Explorer Section */}
+      <ExplorerSection />
 
       {/* Enhanced Testimonials Carousel */}
       <TestimonialCarousel />
+
+      {/* Partners Section */}
+      <PartnersSection />
     </main>
   );
 };

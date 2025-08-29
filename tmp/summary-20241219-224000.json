@@ -1,0 +1,4 @@
+{
+  "summary": "Updated the About Us section to use the Lottie animation from the assets folder. Installed the lottie-react library and replaced the custom construction animation elements with the aboutus.lottie file. The animation now plays automatically with loop enabled and is properly styled to fit the container. The Lottie animation is wrapped in a motion.div with entrance animations that trigger when the section comes into view.",
+  "current_status": "The About Us section now displays the custom Lottie animation from aboutus.lottie file instead of the previous placeholder construction elements. The animation is properly integrated with smooth entrance effects and maintains the same container styling. The lottie-react library has been installed and the component is ready to display the custom animation."
+}

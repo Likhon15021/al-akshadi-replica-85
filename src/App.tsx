@@ -5,7 +5,7 @@ import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Header from "./components/Header";
 import MinimalFooter from "./components/MinimalFooter";
-import EnhancedFloatingButton from "./components/EnhancedFloatingButton";
+
 import ScrollProgress from "./components/ScrollProgress";
 import Index from "./pages/Index";
 import About from "./pages/About";
@@ -26,7 +26,6 @@ const App = () => (
         <div className="relative min-h-screen">
           <ScrollProgress />
           <Header />
-          <EnhancedFloatingButton />
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/about" element={<About />} />
